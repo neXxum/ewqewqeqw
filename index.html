@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>to-do</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="border-container">
+            <div class="head-container">
+                <h1>TodoJS App</h1>
+                <div class="add">
+                    <input class="input-todo" />
+                    <button id="button-add">add</button>
+                </div>
+            </div>
+
+            <div class="body-container">
+                <div class="list">
+                    <ul id="elem-list-container">
+                        <div class="first-element">
+                            <li class="first-li">
+                                <input type="checkbox" class="first-checkbox" id="checked-all" disabled/>
+                                <span class="your-todos">YOUR TODOS:</span>
+                                <button class="delete-select-button">X</button> 
+                            </li>
+                        </div>
+                        <div class="elem-list">
+                            
+                        </div>
+                    </ul>
+                </div> 
+
+                <div class="buttons-container">
+                    <button class="button-all active">All</button>
+                    <button class="button-active">Active</button>
+                    <button class="button-completed">Completed</button>
+                </div>
+            </div>
+
+                <div class="pages-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.js" integrity="sha512-2iwCHjuj+PmdCyvb88rMOch0UcKQxVHi/gsAml1fN3eg82IDaO/cdzzeXX4iF2VzIIes7pODE1/G0ts3QBwslA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
